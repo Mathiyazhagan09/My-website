@@ -1,0 +1,154 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+header {
+    background-color: #0c0c0c;
+    color: white;
+    padding: 25px;
+}
+
+header h1 {
+    color: #D4AF37;
+    margin: 0;
+}
+
+header p {
+    color: #eeeeee;
+}
+
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+nav a:hover {
+    color: #D4AF37;
+}
+
+
+hr {
+    border: 0;
+    border-top: 1px solid #D4AF37;
+}
+
+
+section {
+    padding: 30px;
+}
+
+section h2 {
+    color: #8B6914;
+    text-align: center;
+}
+
+section h3 {
+    color: #B8860B;
+}
+
+
+#home {
+    text-align: center;
+}
+
+#home img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin: 8px;
+}
+
+#home button {
+    display: block;
+    margin: 20px auto;
+}
+
+
+#services ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#services li {
+    background-color: white;
+    margin: 25px 0;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#services img {
+    width: 290px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin: 5px;
+}
+
+
+button {
+    background-color: #222;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #B8860B;
+}
+
+
+table {
+    margin: auto;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+th {
+    background-color: #222;
+    color: #D4AF37;
+    padding: 12px 25px;
+}
+
+td {
+    padding: 12px 25px;
+    border: 1px solid #ccc;
+}
+
+
+form {
+    background-color: white;
+    max-width: 400px;
+    margin: auto;
+    padding: 25px;
+    border-radius: 20px;
+}
+
+input,
+select,
+textarea {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+footer h3 {
+    color: #D4AF37;
+}
